@@ -1,0 +1,90 @@
+:root {
+    --header-bg: rgb(130, 130, 130);
+    --text-color: #2c2c2c;
+    --section-bg: rgb(236, 240, 241);
+    --link-color: rgb(#2c2c2c);
+    --footer-bg: rgb(203, 68, 53);
+    --image-url: url('Bildemapper/supermoto\ bilde.webp');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(240, 244, 248);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--header-bg);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    flex: 1;
+}
+
+.image {
+    flex: 1;
+    max-width: 300px;
+    height: 300px;
+    /* Juster høyden etter behov */
+    background-image: var(--image-url);
+    background-size: cover;
+    /* Sørger for at bildet dekker hele elementet */
+    background-position: center;
+    /* Sentraliserer bildet */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtil skygge */
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: var(--section-bg);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: var(--header-bg);
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(192, 57, 43);
+}
+
+footer {
+    background-color: var(--footer-bg);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

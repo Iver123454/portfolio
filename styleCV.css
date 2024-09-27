@@ -1,0 +1,119 @@
+                                            body {
+                                                font-family: 'Poppins', sans-serif;
+                                                background: linear-gradient(135deg, #f0f0f0, #e6e6e6);
+                                                margin: 0;
+                                                padding: 0;
+                                                transition: background-color 0.5s ease;
+                                                /*background-attachment: fixed;
+    /* Statiske bakgrunner skaper en mer dynamisk følelse */
+                                                background-image: url(Bildemapper/Skjermbilde\ 2024-09-09\ kl.\ 13.21.38.png);
+                                                 :fullscreen .container {
+                                                    max-width: 1200px;
+                                                    margin: 30px auto;
+                                                    padding: 30px;
+                                                    /* Gjør boksen litt gjennomsiktig */
+                                                    border-radius: 20px;
+                                                    /* Rundere hjørner for et mykere utseende */
+                                                    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.15);
+                                                    transition: box-shadow 0.4s ease, background-color 0.4s ease;
+                                                    backdrop-filter: blur(5px);
+                                                    /* Gir en subtil blurry effekt */
+                                                }
+                                                .container:hover {
+                                                    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.25);
+                                                    background-color: rgba(255, 255, 255, 0.85);
+                                                    /* Endrer farge litt ved hover */
+                                                }
+                                                header {
+                                                    text-align: center;
+                                                    padding-bottom: 20px;
+                                                }
+                                                h1 {
+                                                    color: #333;
+                                                    font-size: 2.8em;
+                                                    /* Litt større for en mer fremtredende effekt */
+                                                    font-weight: 800;
+                                                    /* Mer vekt på tittelen */
+                                                    letter-spacing: 2px;
+                                                    /* Gir rom mellom bokstavene */
+                                                    text-transform: uppercase;
+                                                    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+                                                    /* Gir tittelen dybde */
+                                                }
+                                                h2 {
+                                                    color: #000000;
+                                                    border-bottom: 3px solid #ccc;
+                                                    /* Gjør linjen under litt tykkere */
+                                                    padding-bottom: 10px;
+                                                    margin-bottom: 15px;
+                                                    font-size: 1.9em;
+                                                    text-transform: uppercase;
+                                                    transition: border-color 0.4s ease, transform 0.3s ease;
+                                                }
+                                                h2:hover {
+                                                    border-color: #444;
+                                                    transform: translateY(-5px);
+                                                    /* En liten bevegelse oppover når du holder musepekeren over */
+                                                }
+                                                p,
+                                                li {
+                                                    color: #000000;
+                                                    /* Gjør teksten litt mørkere for bedre lesbarhet */
+                                                    line-height: 1.8;
+                                                    /* Litt større linjeavstand for bedre lesbarhet */
+                                                    font-weight: 400;
+                                                    /* Gjør teksten litt fyldigere */
+                                                    font-size: 1.2em;
+                                                    transition: color 0.3s ease;
+                                                }
+                                                p:hover,
+                                                li:hover {
+                                                    color: #000;
+                                                    /* Endrer fargen ved hover */
+                                                }
+                                                ul {
+                                                    list-style-type: square;
+                                                    padding-left: 25px;
+                                                    /* Litt mer avstand fra kanten */
+                                                }
+                                                ul li {
+                                                    margin-bottom: 10px;
+                                                    transition: transform 0.4s ease, color 0.4s ease;
+                                                }
+                                                ul li:hover {
+                                                    transform: translateX(12px);
+                                                    /* Større bevegelse for mer dynamikk */
+                                                    color: #222;
+                                                }
+                                                img {
+                                                    width: 100px;
+                                                    /* Gjør bildet litt større */
+                                                    height: 160px;
+                                                    border-radius: 50%;
+                                                    object-fit: cover;
+                                                    margin-bottom: 20px;
+                                                    transition: transform 0.4s ease, filter 0.3s ease;
+                                                    /* Gir en mykere zoom */
+                                                    filter: grayscale(30%);
+                                                    /* Svart-hvitt effekt */
+                                                }
+                                                img:hover {
+                                                    transform: scale(1.15);
+                                                    /* Større zoom ved hover */
+                                                    filter: grayscale(0%);
+                                                    /* Fjern gråskala ved hover */
+                                                }
+                                                footer {
+                                                    text-align: center;
+                                                    padding-top: 30px;
+                                                    font-size: 0.95em;
+                                                    color: #aaa;
+                                                    font-style: italic;
+                                                    transition: color 0.4s ease, letter-spacing 0.3s ease;
+                                                }
+                                                footer:hover {
+                                                    color: #666;
+                                                    letter-spacing: 1px;
+                                                    /* Subtil effekt med bokstavavstand ved hover */
+                                                }
+                                            }
